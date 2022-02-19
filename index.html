@@ -10,35 +10,105 @@
     <header>
       <h1>Elementos de agrupación</h1>
       <nav>
-          <!-- Links URL absolutos -->
-          <a href="https://github.com">GitHub</a>
-          <!-- Link a otro documento dentro del sitio -->
-          <a href="servicios.html">Servicios</a>
-          <!-- Link hacia otra sección dentro del documento -->
-          <a href="#abajo">Ir abajo</a>
-          <!-- Link URL tab nuevo -->
-          <a target="_blank" href="https://github.com">GitHub</a>
-          <!-- Link telefono -->
-          <a href="tel:12346789">Contacto</a>
+        <!-- Links URL absolutos -->
+        <a href="https://github.com">GitHub</a>
+        <!-- Link a otro documento dentro del sitio -->
+        <a href="servicios.html">Servicios</a>
+        <!-- Link hacia otra sección dentro del documento -->
+        <a href="#abajo">Ir abajo</a>
+        <!-- Link URL tab nuevo -->
+        <a target="_blank" href="https://github.com">GitHub</a>
+        <!-- Link telefono -->
+        <a href="tel:12346789">Contacto</a>
       </nav>
     </header>
 
     <!-- Contenido principal -->
-    <article>
-      <!-- Blockquote -->
-      <blockquote cite="https://www.asciiart.eu/">
+    <main>
+      <article>
+        <!-- Blockquote -->
+        <blockquote cite="https://www.asciiart.eu/">
+          <p>
+            The <abbr title="American Standard Code for Information Interchange">ASCII</abbr> art of this <strong>website</strong> has been created by many different
+            <strong>artists</strong> and <em>credit</em> has been given where the artist is known. If you
+            use <b>ASCII</b> <i>artwork</i> from here, <em>
+              please do not remove the artists
+              name/initials if they are present.
+            </em>
+          </p>
+          <!-- Superíndice -->
+          <p>UANL <sup>FACPYA</sup></p>
+          <!-- Subíndice -->
+          <p>UAN <sub>FACPYA</sub></p>
+        </blockquote>
+
+        <!-- Div contenedor generico -->
+        <div>
+          <p>Hola, estoy dentro de un div</p>
+        </div>
+
+        <!-- Lista de definiciones -->
+        <h3>Marcas de automóviles</h3>
+        <dl>
+          <dt>Nissan</dt>
+          <dt>Nissan Motor Co., Ltd</dt>
+          <dd>Fabricante de automóviles japonesa</dd>
+          <dt>Ford</dt>
+          <dd>Empresa estadounidense creada en 1930</dd>
+          <dt>Chevrolet</dt>
+          <dd>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            nihil autem eligendi debitis? Recusandae fugit molestiae saepe
+            sapiente tempora explicabo corporis vitae, sit suscipit placeat
+            aspernatur maxime reprehenderit ducimus impedit?
+          </dd>
+        </dl>
+        <img width="200" src="Gato.jpg" alt="Gato cute" />
+
+        <!-- Figure -->
+        <hr />
+        <figure>
+          <img width="200" src="Gato.jpg" alt="Gato cute" />
+          <figcaption>Figura 1. Gato cute</figcaption>
+        </figure>
+
+        <!-- Regla horizontal -->
+        <hr />
+
+        <!-- Lista ordenada -->
+        <h3>Lista de carreras</h3>
+        <ol>
+          <li>LTI</li>
+          <li>LA</li>
+          <li>CP</li>
+        </ol>
+
+        <!-- Lsita desordenada -->
+        <ul>
+          <li>LTI</li>
+          <li>LA</li>
+          <li>CP</li>
+        </ul>
+
+        <!-- Párrafo -->
         <p>
-          The ASCII art of this website has been created by many different
-          artists and credit has been given where the artist is known. If you
-          use ASCII artwork from here, please do not remove the artists
-          name/initials if they are present.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, culpa!
         </p>
-      </blockquote>
-    </article>
+
+        <!-- Texto preformateado -->
+        <pre>
+          /\_/\           ___
+          = o_o =_______    \ \ 
+           __^      __(  \.__) )
+       (@)<_____>__(_____)____/
+        </pre>
+
+      </article>
+    </main>
 
     <footer>
       <address id="abajo">
-        <p>Desarrollador: Alejandra Recendez</p>
+        <p>Desarrollador: Alejandra R.</p>
       </address>
     </footer>
   </body>
